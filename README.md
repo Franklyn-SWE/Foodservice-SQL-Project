@@ -1,4 +1,4 @@
-# FoodserviceDB SQL Project
+# FoodserviceDB T-SQL Project
 
 ## Project Overview
 
