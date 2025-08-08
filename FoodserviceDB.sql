@@ -1,4 +1,4 @@
----- Franklyn Oliha. Student ID: @ 00403552.  -------------- ---------Task 2  --------------------------------------------------------------------------------------------------------------------
+---- Food Service Analysis  Project     --------------------------------------------------------------------------------------------------------------------
 CREATE DATABASE FoodserviceDB;
 
 USE FoodserviceDB;
@@ -70,7 +70,7 @@ FROM Consumers r INNER JOIN Ratings p
 
 
 ---------------------------------------------------------------------------------------------
--- Question 4.
+-- Question 4. 
 
 --- Displaying the age of consumers rankings sorting results from the youngest 
 SELECT r.Name,t.Food_Rating,c.Age
@@ -89,7 +89,7 @@ order BY Food_Rating desc
 
 
 --------------------------------------------------------
---Question 5.
+--Question 5. (Store Procedure - updating the service rating to '2' for restaurants that have parking available marked as 'yes' or 'public'
   
 
  CREATE PROCEDURE updateServiceRating
